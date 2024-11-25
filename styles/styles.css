@@ -1,3 +1,180 @@
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*colors:
+grijs: #899CA0
+donkergroen #1C2B32
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+a {
+    text-decoration: underline;
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin: 40px;
+}
+
+/*///////////// 3.1 Header /////////////*/
+
+.header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-color: transparent;
+}
+
+.header-info {
+    /*position: relative;*/
+    color: #1C2B32;
+    text-align: center;
+    height: 800px;
+    padding: 250px;
+    max-width: 1000px;
+}
+
+.header h1 {
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.header p {
+    margin: 20px;
+}
+
+#text-field {
+    border: 2px solid #1C2B32;
+    color: #1C2B32;
+    padding: 20px 80px 20px 20px;
+    background: transparent;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+#text-field::placeholder {
+    color: #1C2B32;
+}
+
+#text-field:focus {
+    border: 2px solid #1C2B32;
+}
+
+#check-field {
+    background-color: #1C2B32;
+    color: white;
+    border: 2px solid #1C2B32;
+    padding: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: -5px;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.testimonials div {
+    position: relative;
+    margin: 30px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    padding: 60px 60px 60px 120px;
+    border-radius: 10px;
+}
+
+.testimonials blockquote {
+    padding-bottom: 20px;
+}
+
+.testimonials span > img {
+    height: 44px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.quote {
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.support img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.support p {
+    margin-block: 20px;
+}
+
+.support button {
+    background-color: #1C2B32;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    max-width: 200px;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+.faq summary {
+    margin: 20px;
+    text-align: left;
+}
+
+.faq summary:hover {
+    cursor: pointer;
+}
+
+.faq p {
+    color: white;
+    border-radius: 10px;
+    background-color: #899CA0;
+    padding: 20px;
+    margin: 10px;
+    text-align: left;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+
+.footer {
+    background-color: #1C2B32;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -12,15 +189,9 @@ Table of Contents:
 
 
 
-/*////////////////////////
-    1. Global Styles
-////////////////////////*/
 
 
 
-/*////////////////////////
-    2. Typography
-////////////////////////*/
 
 
 
@@ -30,20 +201,4 @@ Table of Contents:
 
 
 
-/*///////////// 3.1 Header /////////////*/
 
-
-
-/*///////////// 3.2 Testimonial /////////////*/
-
-
-
-/*///////////// 3.3 Support /////////////*/
-
-
-
-/*///////////// 3.4 Faq /////////////*/
-
-
-
-/*///////////// 3.5 Footer /////////////*/
