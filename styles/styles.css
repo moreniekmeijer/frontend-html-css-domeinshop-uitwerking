@@ -1,9 +1,21 @@
 
-/*////////////////////////
-    1. Global Styles
-////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Typografie
+    2. Global Styles
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/*////////////////////////
+    2. Global Styles
+////////////////////////*/
 
 * {
     margin: 0;
@@ -42,6 +54,15 @@ h2 {
     margin: 40px;
 }
 
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
 /*///////////// 3.1 Header /////////////*/
 
 .header {
@@ -50,12 +71,10 @@ h2 {
 }
 
 .header-info {
-    /*position: relative;*/
     color: #1C2B32;
     text-align: center;
     height: 800px;
     padding: 250px;
-    max-width: 1000px;
 }
 
 .header h1 {
@@ -64,7 +83,8 @@ h2 {
 }
 
 .header p {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #text-field {
@@ -111,7 +131,6 @@ h2 {
 .testimonials span > img {
     height: 44px;
     border-radius: 50%;
-    vertical-align: middle;
     margin-right: 20px;
 }
 
@@ -124,7 +143,7 @@ h2 {
 /*///////////// 3.3 Support /////////////*/
 
 .support img {
-    height: 100%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -146,6 +165,7 @@ h2 {
 .faq summary {
     margin: 20px;
     text-align: left;
+    width: 100%;
 }
 
 .faq summary:hover {
@@ -158,7 +178,6 @@ h2 {
     background-color: #899CA0;
     padding: 20px;
     margin: 10px;
-    text-align: left;
 }
 
 /*///////////// 3.5 Footer /////////////*/
@@ -168,6 +187,7 @@ h2 {
     color: white;
     padding: 20px;
     text-align: center;
+    margin-top: 40px;
 }
 
 
@@ -175,17 +195,6 @@ h2 {
 
 
 
-/*////////////////////////////////////////////////////////////////////////
-Table of Contents:
-    1. Global Styles
-    2. Typografie
-    3. Areas
-        3.1 Header
-        3.2 Testimonial
-        3.3 Support
-        3.4 Faq
-        3.5 Footer
-////////////////////////////////////////////////////////////////////////*/
 
 
 
@@ -194,10 +203,6 @@ Table of Contents:
 
 
 
-
-/*////////////////////////
-    3. Areas
-////////////////////////*/
 
 
 
